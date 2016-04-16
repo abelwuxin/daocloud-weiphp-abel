@@ -10,6 +10,8 @@ RUN apt-get update && apt-get install -y \
 		make \
 		pkg-config \
 		re2c \
+        #add by abel install gd
+        libpng \
 	--no-install-recommends && rm -r /var/lib/apt/lists/*
 
 # persistent / runtime deps
