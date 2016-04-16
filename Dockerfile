@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 		pkg-config \
 		re2c \
         #add by abel install gd
-        libpng \
+        libpng12-0 \
 	--no-install-recommends && rm -r /var/lib/apt/lists/*
 
 # persistent / runtime deps
