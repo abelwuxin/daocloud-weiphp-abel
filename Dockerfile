@@ -12,6 +12,9 @@ RUN apt-get update && apt-get install -y \
 		re2c \
         #add by abel install gd
         libpng12-dev \
+        libfreetype6-dev \        
+        libjpeg62-turbo-dev \
+        #add by abel deng
 	--no-install-recommends && rm -r /var/lib/apt/lists/*
 
 # persistent / runtime deps
