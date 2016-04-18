@@ -14,8 +14,6 @@ RUN apt-get update && apt-get install -y \
         libpng12-dev \
         libfreetype6-dev \        
         libjpeg62-turbo-dev \
-        php-mysql \
-        mysql \
         #add by abel deng
 	--no-install-recommends && rm -r /var/lib/apt/lists/*
 
